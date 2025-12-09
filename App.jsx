@@ -1,8 +1,17 @@
-import StudentRegistration from "./FullStack/Sample/StudentRegisteration"
+import { useState } from "react";
 
 
-function App() {
-  return<StudentRegistration/>
+export default function StateExample()
+{
+const[count,setCount]=useState(0);
+function buttonclick()
+{
+    setCount(count+10);
 }
-
-export default App
+return<>
+ <h1>State Example</h1>
+ <button onClick={buttonclick} style={{backgroundColor:"#A039E5", color:"rgba(242, 244, 238, 1)"}}>
+    Visitor Count = {count}
+ </button>
+</>
+}
