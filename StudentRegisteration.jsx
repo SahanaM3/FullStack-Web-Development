@@ -18,6 +18,8 @@ function handleSubmit(e) {
           border: 1px solid #aaa;
           border-radius: 8px;
           font-family: Arial;
+          background: Pink;
+          color: white;
         }
         .form-container h2 {
           text-align: center;
