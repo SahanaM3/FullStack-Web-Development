@@ -1,8 +1,7 @@
-import StudentRegistration from "./FullStack/Sample/StudentRegisteration"
-
+import Event from "./FullStack/Sample/Event";
 
 function App() {
-  return<StudentRegistration/>
+  return <Event />;
 }
 
-export default App
+export default App;
