@@ -1,7 +1,7 @@
-import Poll from "./FullStack/Sample/Poll";
+import Feedback from "./FullStack/Sample/Feedback";
 
 function App() {
-  return <Poll />;
+  return <Feedback />;
 }
 
 export default App;
