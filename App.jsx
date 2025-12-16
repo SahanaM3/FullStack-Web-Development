@@ -1,7 +1,7 @@
-import CourseEnroll from "./FullStack/Sample/CourseEnroll";
+import LoginFormValidation from "./FullStack/Sample/LoginFormValidation";
 
 function App() {
-  return <CourseEnroll />;
+  return <LoginFormValidation />;
 }
 
 export default App;
