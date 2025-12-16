@@ -1,7 +1,7 @@
-import Feedback from "./FullStack/Sample/Feedback";
+import CourseEnroll from "./FullStack/Sample/CourseEnroll";
 
 function App() {
-  return <Feedback />;
+  return <CourseEnroll />;
 }
 
 export default App;
