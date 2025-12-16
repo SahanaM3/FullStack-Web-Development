@@ -1,7 +1,7 @@
-import Event from "./FullStack/Sample/Event";
+import Poll from "./FullStack/Sample/Poll";
 
 function App() {
-  return <Event />;
+  return <Poll />;
 }
 
 export default App;
