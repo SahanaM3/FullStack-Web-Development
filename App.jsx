@@ -1,11 +1,11 @@
 import React from "react";
-import Attendance from "./Full Stack/Sample/Attendance";
+import TaskDashboard from "./Full Stack/Sample/TaskDashboard";
 
 const App = () => {
   return (
     <div style={styles.app}>
-      <h1 style={styles.heading}>📚 Attendance Tracker</h1>
-      <Attendance />
+      <h1 style={styles.heading}>📝 My Task Dashboard</h1>
+      <TaskDashboard />
     </div>
   );
 };
@@ -13,15 +13,16 @@ const App = () => {
 const styles = {
   app: {
     minHeight: "100vh",
-    background: "linear-gradient(to right, #74ebd5, #acb6e5)",
+    background: "linear-gradient(135deg, #667eea, #764ba2)",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     paddingTop: "40px",
-    fontFamily: "Arial, sans-serif",
+    fontFamily: "Segoe UI, sans-serif",
   },
   heading: {
-    marginBottom: "20px",
+    color: "#fff",
+    marginBottom: "25px",
   },
 };
 
