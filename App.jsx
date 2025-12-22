@@ -1,11 +1,7 @@
-import DialogBox from "./Full Stack/Sample/DialogBox";
+import HotelReservation from "./FullStack/Sample/HotelReservation";
 
 function App() {
-  return (
-    <div>
-      <DialogBox />
-    </div>
-  );
+  return <HotelReservation />;
 }
 
 export default App;
