@@ -1,7 +1,11 @@
 import HotelReservation from "./FullStack/Sample/HotelReservation";
 
 function App() {
-  return <HotelReservation />;
+  return (
+    <div>
+      <HotelReservation />
+    </div>
+  );
 }
 
 export default App;
