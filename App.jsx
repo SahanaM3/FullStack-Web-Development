@@ -1,29 +1,11 @@
-import React from "react";
-import TaskDashboard from "./Full Stack/Sample/TaskDashboard";
+import DialogBox from "./Full Stack/Sample/DialogBox";
 
-const App = () => {
+function App() {
   return (
-    <div style={styles.app}>
-      <h1 style={styles.heading}>📝 My Task Dashboard</h1>
-      <TaskDashboard />
+    <div>
+      <DialogBox />
     </div>
   );
-};
-
-const styles = {
-  app: {
-    minHeight: "100vh",
-    background: "linear-gradient(135deg, #667eea, #764ba2)",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    paddingTop: "40px",
-    fontFamily: "Segoe UI, sans-serif",
-  },
-  heading: {
-    color: "#fff",
-    marginBottom: "25px",
-  },
-};
+}
 
 export default App;
