@@ -1,4 +1,4 @@
-import WorkshopRegistration from "./WorkshopRegistration";
+import WorkshopRegistration from "./FullStack/Sample/WorkshopRegistration";
 
 function App() {
   return <WorkshopRegistration />;
